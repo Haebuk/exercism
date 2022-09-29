@@ -9,7 +9,6 @@ func (c *Car) Drive() {
 		c.battery = remainBattery
 		c.distance += c.speed
 	}
-	fmt.Printf("car is now %v", c)
 }
 
 // TODO: define the 'DisplayDistance() string' method
