@@ -35,3 +35,4 @@ func DisplayResult(result *ElectionResult) string {
 func DecrementVotesOfCandidate(results map[string]int, candidate string) {
 	results[candidate] -= 1
 }
+
