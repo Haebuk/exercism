@@ -1,0 +1,21 @@
+*.beam
+*.swp
+.DS_Store
+**/.idea
+tmp
+target/
+bin/configlet
+bin/configlet.exe
+
+.bsp/
+
+# metals workflow junk, shouldn't be commited
+.bloop/
+.metals/
+
+project/
+!project/build.properties
+!project/plugins.sbt
+project/target
+src/test/scala/project/
+target
